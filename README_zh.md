@@ -27,8 +27,12 @@
 
 <table>
   <tr>
+    <td><a href="https://huggingface.co/xcczach/xturnix-pt">XTurnix Pretrained</a></td>
+    <td>基于大规模预训练的多语言话轮检测模型</td>
+  </tr>
+  <tr>
     <td><a href="https://huggingface.co/xcczach/xturnix-zh-base">XTurnix-ZH Base</a></td>
-    <td>基于大规模预训练和通用微调的中文话轮检测模型</td>
+    <td>基于XTurnix Pretrained通用微调的中文话轮检测模型</td>
   </tr>
 </table>
 
