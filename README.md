@@ -4,7 +4,9 @@
     <strong>Streaming dialogue turn prediction based on textual chat history</strong>
   </p>
   <p>
+    <a href="https://huggingface.co/xcczach/xturnix-pt"><img src="https://img.shields.io/badge/Hugging%20Face-xturnix--pt-yellow" alt="Hugging Face model"></a>
     <a href="https://huggingface.co/xcczach/xturnix-zh-base"><img src="https://img.shields.io/badge/Hugging%20Face-xturnix--zh--base-yellow" alt="Hugging Face model"></a>
+    <a href="https://xtalk.sjtuxlance.com/"><img src="https://img.shields.io/badge/Demo-xtalk-blue" alt="Demo"></a>
     <a href=""><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b" alt="arXiv paper"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache-2.0"></a>
   </p>
@@ -36,6 +38,10 @@ The model maintains the AI's current state and makes a turn-taking decision when
   </tr>
 </table>
 
-# Quick Start
+# Demo
+
+https://xtalk.sjtuxlance.com/
+
+# Quickstart
 
 Refer to the model repository for instructions. The model has been integrated into the [X-Talk dialogue framework](https://github.com/xcc-zach/xtalk), and you are welcome to try it out.

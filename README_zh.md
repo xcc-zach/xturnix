@@ -4,7 +4,9 @@
     <strong>基于文本聊天历史的流式对话话轮预测</strong>
   </p>
   <p>
+    <a href="https://huggingface.co/xcczach/xturnix-pt"><img src="https://img.shields.io/badge/Hugging%20Face-xturnix--pt-yellow" alt="Hugging Face 模型"></a>
     <a href="https://huggingface.co/xcczach/xturnix-zh-base"><img src="https://img.shields.io/badge/Hugging%20Face-xturnix--zh--base-yellow" alt="Hugging Face 模型"></a>
+    <a href="https://xtalk.sjtuxlance.com/"><img src="https://img.shields.io/badge/Demo-xtalk-blue" alt="Demo"></a>
     <a href=""><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b" alt="arXiv 论文"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache-2.0"></a>
   </p>
@@ -22,6 +24,10 @@
 | `listening` | 用户已经结束当前话轮，开始回复 | `start` |
 | `speaking` | 用户输入不要求 AI 让出当前话轮 | `keep` |
 | `speaking` | 用户输入要求 AI 停止说话并转为聆听 | `stop` |
+
+# Demo
+
+https://xtalk.sjtuxlance.com/
 
 # 模型
 
