@@ -44,4 +44,16 @@ https://xtalk.sjtuxlance.com/
 
 # 快速开始
 
-参考模型仓库。模型已在[X-Talk对话框架](https://github.com/xcc-zach/xtalk)中适配，欢迎体验。
+参考 Hugging Face 模型仓库中的说明使用`vllm`部署模型。该模型已集成到 [X-Talk 对话框架](https://github.com/xcc-zach/xtalk) 中，可参见 [X-Talk 快速开始](https://xtalk.readthedocs.io/zh/quickstart/)、[X-Talk 配置](https://xtalk.readthedocs.io/zh/tutorial/config_the_service/) 与 [支持的模型](https://xtalk.readthedocs.io/zh/technical_reference/supported_models/#_5) 获取指引。如需连接由 `vllm` 部署在 8000 端口的模型，配置项应如下所示：
+```json
+ {
+  "turn_detector": {
+    "type": "XTurnix",
+    "params": {
+      "base_url": "http://127.0.0.1:8000",
+      "timeout": 2.0,
+      "max_model_len": 2048
+    }
+  }
+}
+```

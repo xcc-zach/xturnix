@@ -44,4 +44,16 @@ https://xtalk.sjtuxlance.com/
 
 # Quickstart
 
-Refer to the model repository for instructions. The model has been integrated into the [X-Talk dialogue framework](https://github.com/xcc-zach/xtalk), and you are welcome to try it out.
+Refer to the Huggingface model repositories for instructions to deploy with `vllm`. The model has been integrated into the [X-Talk dialogue framework](https://github.com/xcc-zach/xtalk), and see [X-Talk quickstart](https://xtalk.readthedocs.io/quickstart/), [X-Talk configuration](https://xtalk.readthedocs.io/tutorial/config_the_service/) and [Supported Models](https://xtalk.readthedocs.io/technical_reference/supported_models/#turn-detection) for guidance. To connect to model deployed by `vllm` on port 8000, the config item should be like:
+```json
+ {
+  "turn_detector": {
+    "type": "XTurnix",
+    "params": {
+      "base_url": "http://127.0.0.1:8000",
+      "timeout": 2.0,
+      "max_model_len": 2048
+    }
+  }
+}
+```
