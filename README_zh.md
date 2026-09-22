@@ -27,7 +27,8 @@
 
 # Demo
 
-https://xtalk.sjtuxlance.com/
+[Hugging Face Demo](https://huggingface.co/spaces/xcczach/xturnix-demo)
+[对话系统集成](https://xtalk.sjtuxlance.com/)
 
 # 模型
 
