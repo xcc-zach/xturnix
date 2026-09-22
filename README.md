@@ -29,11 +29,11 @@ The model maintains the AI's current state and makes a turn-taking decision when
 
 <table>
   <tr>
-    <td><a href="https://huggingface.co/xcczach/xturnix-pt">XTurnix Pretrained</a></td>
+    <td><a href="https://huggingface.co/xcczach/xturnix-pt">XTurnix Pretrained 0.6B</a></td>
     <td>A multilingual turn-taking detection model based on large-scale pretraining.</td>
   </tr>
   <tr>
-    <td><a href="https://huggingface.co/xcczach/xturnix-zh-base">XTurnix-ZH Base</a></td>
+    <td><a href="https://huggingface.co/xcczach/xturnix-zh-base">XTurnix-ZH Base 0.6B</a></td>
     <td>A Chinese turn-taking detection model built through general-purpose fine-tuning of XTurnix Pretrained.</td>
   </tr>
 </table>
