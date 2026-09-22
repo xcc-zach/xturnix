@@ -41,6 +41,7 @@ The model maintains the AI's current state and makes a turn-taking decision when
 # Demo
 
 [Huggingface Demo](https://huggingface.co/spaces/xcczach/xturnix-demo)
+
 [Dialogue System Integration](https://xtalk.sjtuxlance.com/)
 
 # Quickstart
