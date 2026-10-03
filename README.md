@@ -8,7 +8,7 @@
     <a href="https://huggingface.co/xcczach/xturnix-zh-base"><img src="https://img.shields.io/badge/Hugging%20Face-xturnix--zh--base-yellow" alt="Hugging Face model"></a>
     <a href="https://huggingface.co/spaces/xcczach/xturnix-demo"><img src="https://img.shields.io/badge/Hugging%20Face%20Spaces-Demo-yellow" alt="Hugging Face demo"></a>
     <a href="https://xtalk.sjtuxlance.com/"><img src="https://img.shields.io/badge/Demo-xtalk-blue" alt="Demo"></a>
-    <a href="https://arxiv.org/abs/2512.18706"><img src="https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b" alt="arXiv paper coming soon"></a>
+    <a href="https://arxiv.org/abs/2512.18706"><img src="https://img.shields.io/badge/arXiv-paper-b31b1b" alt="arXiv paper"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache-2.0"></a>
   </p>
 </div>
