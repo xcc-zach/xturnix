@@ -1,7 +1,7 @@
 <div align="center">
   <h1>XTurnix</h1>
   <p>
-    <strong>Streaming dialogue turn prediction based on textual chat history</strong>
+    <strong>Streaming dialogue turn prediction model based on textual chat history</strong>
   </p>
   <p>
     <a href="https://huggingface.co/xcczach/xturnix-pt"><img src="https://img.shields.io/badge/Hugging%20Face-xturnix--pt-yellow" alt="Hugging Face model"></a>
