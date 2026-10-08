@@ -45,6 +45,28 @@ The model maintains the AI's current state and makes a turn-taking decision when
 
 [Dialogue System Integration](https://xtalk.sjtuxlance.com/)
 
+# Benchmark Results
+
+Accuracy(%) on Chinese (ZH) and English (EN). Best results are bold, and second-best
+italicized.
+
+| Model | Params | Easy-Turn ZH | Smart-Turn All | Smart-Turn ZH | Smart-Turn EN | SemanticVAD All | SemanticVAD ZH | SemanticVAD EN | LiveKit All | LiveKit ZH | LiveKit EN |
+|-------|--------|-------------:|---------------:|--------------:|--------------:|----------------:|---------------:|---------------:|------------:|-----------:|-----------:|
+| Easy-Turn | 850M | **97.33** | -- | 13.31 | -- | -- | 70.06 | -- | -- | 55.45 | -- |
+| Smart-Turn | 8M | 77.17 | *98.81* | **98.52** | 99.00 | 54.61 | 53.09 | 69.75 | *70.91* | 64.60 | *76.24* |
+| FireRedChat | 170M | 81.17 | 9.29 | 1.78 | 14.34 | 72.42 | 72.59 | 70.75 | 42.67 | 42.91 | 42.48 |
+| Namo | 307M | 50.83 | 44.17 | 48.52 | 41.24 | 46.14 | 45.68 | 50.75 | 49.92 | 44.20 | 54.75 |
+| TEN | 7B | 90.33 | 74.40 | 74.85 | 74.10 | 62.65 | 61.14 | 77.75 | 63.50 | 61.20 | 65.45 |
+| TurnSense | 47M | *96.17* | 79.40 | 94.97 | 68.92 | 64.86 | 64.32 | 70.25 | 58.08 | 58.73 | 57.52 |
+| SoulX-Duplug | 0.6B | 64.83 | 94.52 | 92.31 | 96.02 | 72.69 | 74.02 | 59.50 | 61.67 | 58.85 | 64.06 |
+| X2-Turn | 4B | 76.50 | 98.57 | *97.04* | **99.60** | 80.66 | 80.88 | *78.50* | 64.79 | 59.79 | 69.01 |
+| Qwen3-0.6B | 0.6B | 49.50 | 0.00 | 0.00 | 0.00 | 38.33 | 37.76 | 44.00 | 43.05 | 40.45 | 45.25 |
+| Synthetic-only | 0.6B | 55.67 | 94.05 | 90.24 | 96.61 | 65.97 | 66.85 | 57.00 | 53.52 | 53.58 | 53.47 |
+| XTurnix-PT | 0.6B | 86.00 | **98.93** | **98.52** | *99.20* | *84.08* | *84.97* | 75.25 | **73.70** | **70.57** | **76.34** |
+| XTurnix-ZH-Base | 0.6B | 95.33 | 97.38 | 96.75 | 97.81 | **92.14** | **93.36** | **80.00** | *70.91* | *66.47* | 74.65 |
+
+
+
 # Quickstart
 
 Refer to the Huggingface model repositories for instructions to deploy with `vllm`. The model has been integrated into the [X-Talk dialogue framework](https://github.com/xcc-zach/xtalk), and see [X-Talk quickstart](https://xtalk.readthedocs.io/quickstart/), [X-Talk configuration](https://xtalk.readthedocs.io/tutorial/config_the_service/) and [Supported Models](https://xtalk.readthedocs.io/technical_reference/supported_models/#turn-detection) for guidance. To connect to model deployed by `vllm` on port 8000, the config item should be like:
